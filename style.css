@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #10B981;
+    --navy-blue: #818CF8;
+    --off-white: #E5E7EB; 
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* padding: 0rem 1rem; */
+}
+
+.container-centre{
+    max-width: 600px;
+    margin: auto;
+}
+
+.link{
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+     /* margin-top: 1rem;
+     margin-bottom: 1rem; */
+}
+
+.link-primary{
+   background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+display: inline;
+padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .navbrand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--navy-blue);
+}
+
+/* .hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+} */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+    /* padding: 2rem; */
+}
+
+.off{
+     background-color: var(--off-white);
+
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .heading{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
+
+/* code added for Team */
+
+.container1 {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.item {
+    width: 30%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 4px;
+    float: left;
+    margin-left: 1%;
+    
+}
+
+.thumbnail {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.caption {
+    color: #000;
+    padding: 0px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+.footer-new{
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+}
